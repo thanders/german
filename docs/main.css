@@ -2,7 +2,7 @@
 h1 {text-align: center;}
 h2, h3, h4 {text-align: left; margin-top: 50px; margin-bottom: 50px;}
 th, td {text-align: left;padding-right: 25px; padding-top: 25px;}
-td {border-bottom: 1pt solid black;}
+td {border-bottom: 0.5pt solid black;}
 table {margin: 50px auto 50px auto; border-collapse:collapse;}
 em {color: blue;}
 .nom {color: green;}
