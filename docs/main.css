@@ -14,9 +14,9 @@ th.top {text-align: center; background-color:#BEBEBE;padding-top: 10px; padding-
 td.longtext {max-width:400px;}
 
 .columns {
-    -webkit-column-count: 3; /* Chrome, Safari, Opera */
-    -moz-column-count: 3; /* Firefox */
-    column-count: 3;
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
     column-gap: 60px;
     -moz-column-gap: 60px;
     -webkit-column-gap: 60px;
