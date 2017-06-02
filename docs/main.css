@@ -10,5 +10,15 @@ em {color: blue;}
 .dat {color: red;}
 .gen {color: orange;}
 
-th.top {text-align: center; background-color:#87CEFA;padding-top: 10px; padding-bottom: 10px;}
+th.top {text-align: center; background-color:#BEBEBE;padding-top: 10px; padding-bottom: 10px;}
 td.longtext {max-width:400px;}
+
+.columns {
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+    column-gap: 60px;
+    -moz-column-gap: 60px;
+    -webkit-column-gap: 60px;
+}
+.left {text-align: right;}
