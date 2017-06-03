@@ -17,8 +17,8 @@ td.longtext {max-width:400px;}
     -webkit-column-count: 2; /* Chrome, Safari, Opera */
     -moz-column-count: 2; /* Firefox */
     column-count: 2;
-    column-gap: 60px;
-    -moz-column-gap: 60px;
-    -webkit-column-gap: 60px;
+    column-gap: 30px;
+    -moz-column-gap: 30px;
+    -webkit-column-gap: 30px;
 }
 .left {text-align: right;}
