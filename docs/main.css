@@ -16,7 +16,7 @@ th.top {text-align: center; background: linear-gradient(-90deg, #5B6870, #7CA6C0
 
 td.longtext {max-width:400px;}
 
-.double-spaced {line-height: 150%;}
+.double-spaced {line-height: 200%;}
 .columns {
     -webkit-column-count: 2; /* Chrome, Safari, Opera */
     -moz-column-count: 2; /* Firefox */
@@ -33,19 +33,7 @@ td.longtext {max-width:400px;}
     font-style: italic;
 }
 
-    HR {
-    border-color: gray;
-    width: 50%;
-    }
-
 @media only screen and (max-width: 1100px) {
-
-    HR {
-    border-color: blue;
-    width: 50%;
-    }
-
-    th.top {text-align: center; background: linear-gradient(-90deg, blue, lightblue);padding-top: 10px; padding-bottom: 10px;}
 
     .columns {
     -webkit-column-count: 1; /* Chrome, Safari, Opera */
@@ -73,7 +61,7 @@ li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 16px 18px;
     text-decoration: none;
 }
 
