@@ -29,8 +29,15 @@ td.longtext {max-width:400px;}
     font-style: italic;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 950px) {
     body {
         background-color: lightblue;
+
+    }
+    .columns {
+    -webkit-column-count: 1; /* Chrome, Safari, Opera */
+    -moz-column-count: 1; /* Firefox */
+    column-count: 1;
+
     }
 }
