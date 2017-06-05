@@ -10,7 +10,8 @@ em {color: blue;}
 .dat {color: red;}
 .gen {color: orange;}
 
-th.top {text-align: center; background-color:#BEBEBE;padding-top: 10px; padding-bottom: 10px;}
+th.top {text-align: center; background: linear-gradient(-90deg, gray, lightgray);padding-top: 10px; padding-bottom: 10px;}
+
 td.longtext {max-width:400px;}
 
 .columns {
@@ -29,11 +30,20 @@ td.longtext {max-width:400px;}
     font-style: italic;
 }
 
+    HR {
+    border-color: gray;
+    width: 50%;
+    }
+
 @media only screen and (max-width: 1100px) {
 
-    .mobile {
-color: blue;
+    HR {
+    border-color: blue;
+    width: 50%;
     }
+
+    th.top {text-align: center; background: linear-gradient(-90deg, blue, lightblue);padding-top: 10px; padding-bottom: 10px;}
+
     .columns {
     -webkit-column-count: 1; /* Chrome, Safari, Opera */
     -moz-column-count: 1; /* Firefox */
