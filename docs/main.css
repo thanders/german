@@ -12,7 +12,7 @@ em {color: blue;}
 tr.border {
     border-bottom: 1px solid #000;
 }
-th.top {text-align: center; background: linear-gradient(-90deg, #B1810B, #5B6870);padding-top: 10px; padding-bottom: 10px;}
+th.top {text-align: center; background: linear-gradient(-90deg,#5B6870, #7CA6C0);padding-top: 10px; padding-bottom: 10px;}
 
 td.longtext {max-width:400px;}
 
