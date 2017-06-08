@@ -74,3 +74,7 @@ li a:hover:not(.active) {
 .active {
     background-color: #B1810B;
 }
+
+dd {margin: 15px 0px 15px 150px;}
+
+dt {margin: 15px 0px 15px 0px;}
